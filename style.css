@@ -1,0 +1,164 @@
+nav*{
+    width: 80%;
+   
+    
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 3em;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    color: yellow;
+}
+/* #logo{
+    float: left;
+} */
+#get{
+    color: yellow;
+    
+}
+.mainImage{
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+    background-image: linear-gradient(rgb(163, 163, 236),rgb(241, 204, 210));
+    border-radius: 5px;
+}
+
+#words{
+    margin-top: 2%;
+    padding: 10%;
+    
+}
+#words h1{
+ 
+    font-size: 40px;
+}
+#order{
+padding: 15px 35px;
+background-color: yellow;
+border: none;
+border-radius: 2px;
+
+}
+#explore{
+    padding: 15px 35px;
+    border: solid white 1px;
+    color: white;
+    background-color: transparent;
+    border-radius: 2px;
+    margin-left: 10px;
+
+}
+#tv{
+    width: 400px;
+    height: 400px;
+    margin-left: -50%;
+    margin-top: 20%;
+    object-fit: cover;
+
+}
+.categories{
+    width: 90%;
+    display: flex;
+    margin: 5% 5%;
+    justify-content: space-around;
+    
+}
+.speakercamera{
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+    justify-content: space-around;
+}
+#headphones{
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.controller{
+    width: 90%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+    background-image: linear-gradient(rgb(163, 163, 236),rgb(241, 204, 210));
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.testimonials {
+
+    align-items: center;
+    text-align: center;
+    margin: 5% 0;
+}
+.man{
+    text-align: center;
+    width:90% ;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+#man{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.subscribe{
+    width: 90%;
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-around;
+}
+#searchbar{
+    padding: 20px 50px;
+    background-color: yellow;
+    border: none;
+    border-radius: 6px;
+}
+footer{
+    width: 100%;
+    margin-top: 100px;
+    border: solid 1px;
+    background-color: rgb(8, 8, 8);
+    color: whitesmoke;
+    opacity: 0.8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+footer ul li{
+    list-style: none;
+}
+#footname{
+    color: yellow;
+}
+
+/* API */
+#products{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+#images{
+    border-radius: 10px;
+    padding: 5px;
+    border: solid rgb(182, 177, 177) 1px;
+    padding: 15px;
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+#name{
+    font-size: 15px;
+}
