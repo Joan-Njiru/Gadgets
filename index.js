@@ -16,15 +16,19 @@ image.id='images';
 let name = document.createElement('h2');
 name.id='name'
 let price = document.createElement('p');
+let rating = document.createElement('p');
+
 let discount = document.createElement('p')
 
 image.src = item.images[0];
 name.textContent = item.title;
 price.textContent = item.price;
+rating.textContent =item.rating;
 discount.innerHTML= item.discountPercentage;
 div.appendChild(image);
 div.appendChild(name);
 div.appendChild(price)
+div.appendChild(rating)
 div.setAttribute("key",item.id);
 div.setAttribute('class','product');
 productContainer.appendChild(div);
